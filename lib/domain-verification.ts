@@ -37,6 +37,7 @@ export async function getOrCreateDomainVerificationToken(
 }
 
 export async function verifyDnsRecords(domain: string, organizationId: string) {
+  console.log('verifyDnsRecords()', domain)
   if (process.env.NODE_ENV === "development" && domain === "example.com") {
     return true
   }
