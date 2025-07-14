@@ -3,11 +3,11 @@ import { readFile, writeFile } from "node:fs/promises"
 import { $ } from "execa"
 import ora from "ora"
 
-const APP_BASE_URL = "http://localhost:3000"
+const APP_BASE_URL = "https://waveshq.com"
 const MANAGEMENT_CLIENT_NAME = "SaaStart Management"
 const DASHBOARD_CLIENT_NAME = "SaaStart Dashboard"
 const DEFAULT_CONNECTION_NAME = "SaaStart-Shared-Database"
-const CUSTOM_CLAIMS_NAMESPACE = "https://example.com"
+const CUSTOM_CLAIMS_NAMESPACE = "https://waveshq.com"
 
 // checks
 
